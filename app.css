@@ -1,0 +1,183 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+
+}
+.image2 {
+    display: none;
+}
+.box {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 0.6em;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 5%;
+
+}
+
+p {
+    display: none;
+}
+
+.image {
+    width: 100%;
+    border-radius: 0.6em 0.6em 0em 0em;
+}
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    align-self: flex-start;
+    letter-spacing: 10px;
+    margin-left: 5%;
+    margin-top: 10%;
+    color: hsl(228, 12%, 48%);
+}
+
+h2 {
+    font-family: "Fraunces", serif;
+    font-size: 1.8em;
+    margin-left: 5%;
+    margin-top: 4%;
+
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+h4 {
+    margin-left: 10%;
+}
+
+.pricetag {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* space between prices */
+    margin-top:4%;
+
+}
+
+.pricetag .currentprice {
+color: hsl(158, 36%, 37%);
+font-weight: 700;
+font-size: 1.5em;
+font-family: "Fraunces", serif;
+}
+
+.pricetag .oldprice {
+text-decoration: line-through;
+font-weight: 200;
+ color: hsl(228, 12%, 48%);
+
+
+}
+
+button {
+    padding: 4% 20%;
+    font-size: 1em;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 0.5em;  
+    border: none; 
+    margin: 5% 5%;
+
+}
+
+i {
+    letter-spacing: 0.5em;
+}
+
+button:hover {
+    background-color:hsl(158, 42%, 18%) ;
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+
+
+  .image { display: none;}
+  .image2 {
+display:flex;
+width: 50%;
+border-radius: 3% 0% 0% 3%;
+  }
+
+
+.box {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    border-radius: 3%;
+
+}
+
+.insidebox {
+
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    height: 50%;
+
+}
+
+h1 {
+
+    font-size: 1.5em;
+    margin-bottom: 0%;
+}
+
+h2 {
+
+    display: none;
+    font-size: 3em;
+    margin-bottom: 15%;
+}
+
+
+
+p {
+    display: block;
+    font-size: 3.3em;
+    margin-bottom: 10%;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+h3 {
+
+    font-size: 1.6em;
+    margin-bottom: 12%;
+}
+
+.pricetag {
+    margin-bottom: 10%;
+    font-size: 1.7em;
+}
+
+button {
+    align-self: center;
+    width: 86%;
+    margin: 0% 10%%;
+    font-size: 1.5em;
+}
+
+
+
+
+}
